@@ -36,7 +36,8 @@ public class PeticionComunicados extends AsyncTask<String, String, String> {
                 e.printStackTrace();
             }
 
-            respuesta=response.body().string();
+            //respuesta=response.body().string();
+            respuesta="Hola mundo";
 
         }
         catch (Exception e)
